@@ -60,11 +60,9 @@ public class Seller {
         return baseSalary + extra;
     }
 
-    public boolean riseBaseSalary(double toAdd) {
+    public void riseBaseSalary(double toAdd) {
         if (toAdd > 0) {
             baseSalary+=toAdd;
-            return true;
         }
-        return false;
     }
 }

@@ -7,8 +7,10 @@ public class External extends Seller {
 
     // Special Methods:
         // Builder:
-    public External(String cpf, String name, double salesValues, double baseSalary) {
+    public External(String cpf, String name, double salesValues, double baseSalary, double traveledDistance, int sellsAmount) {
         super(cpf, name, salesValues, baseSalary);
+        this.traveledDistance = traveledDistance;
+        this.sellsAmount = sellsAmount;
     }
 
         // Getters:

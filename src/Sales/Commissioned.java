@@ -11,6 +11,7 @@ public class Commissioned extends Seller{
     }
 
 
+
     // Special Methods:
         // Getters:
     public double getCommissionPercentual() {
