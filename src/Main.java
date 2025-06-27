@@ -8,7 +8,7 @@ public class Main {
         Commissioned commissionedSeller = new Commissioned("555.666.777-88", "Lucas", 18000.0, 2800.0, 7.5);
 
         // Printing all the objects:
-        System.out.println("-----------------------------" + "\nPrinting all the objects: \n"
+        System.out.println("----------------------------" + "\nPrinting all the objects: \n"
                 +seller + "\n" + externalSeller + "\n" + commissionedSeller + "\n-----------------------------");
 
         // Rising their base salaries:
